@@ -16,7 +16,7 @@ const sequelize = new Sequelize(
     }
 );
 
-const db_contection = async () => {
+const db_conection = async () => {
     try {
         await sequelize.authenticate();
         console.log('conexión exitosa');
@@ -24,3 +24,6 @@ const db_contection = async () => {
         console.log('ocurrió un error: ', error);
     }
 };
+
+
+module.exports = { sequelize, db_conection }

@@ -9,7 +9,7 @@ El archivo `.env example` proporciona un ejemplo de cómo configurar las variabl
 ## Base de Datos
 
 Las queries para la creación de la base de datos y el lote de datos de prueba se encuentran en:
-
+- \src\db\
 
 - **db.jsq**: Query para la creación de la base de datos.
 - **lote_de_datos.sql**: Lote de datos de prueba.
